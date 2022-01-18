@@ -1,0 +1,1 @@
+var g2 = document.getElementById("g2")

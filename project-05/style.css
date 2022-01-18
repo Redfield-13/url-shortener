@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ff7978;
+    position: relative;
+}
+
+.left-side{
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    color: #fff;
+}
+
+.left-side h1{
+    line-height: 65px;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.left-side p{
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.trial{
+    width: 640px;
+    height: 70px;
+    background-color: #5d54a3;
+    border: 1px solid rgb(119, 102, 102);
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    right: 220px;
+    box-shadow: 0px 8px 0px #dc6666;
+}
+
+.trial h2{
+    padding-top: 20px;
+    padding-left: 70px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.sp{
+    font-weight: 400;
+}
+
+.container{
+    height: 750px;
+}
+
+.forms{
+    /* height: 600px; */
+    width: 640px;
+    background-color: #fff;
+    position: absolute;
+    right: 220px;
+    top: 190px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px #dc6666;
+}
+
+.input{
+    height: 60px;
+    width: 550px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-indent: 40px;
+    position: relative;
+    color: #3a3a3a;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.input::placeholder{
+    position: absolute;
+    font-size:16px;
+    font-weight: 600;
+    left: 400px;
+    color: #3a3a3a;
+    /* z-index: -2; */
+    /* color: transparent; */
+}
+.lk{
+
+}
+.lk::placeholder{
+    /* position: absolute;
+    font-size:16px;
+    font-weight: 600;
+    left: 400px; */
+    color: transparent;
+}
+
+.btn{
+    /* position: absolute;
+    top: 440px;
+    left: 50px; */
+    margin-top: 20px;
+    margin-left: 47px;
+    height: 70px;
+    width: 560px;
+    background-color: #37cc8a;
+    border-radius: 7px;
+    /* box-shadow: 4px 4px 4px 4px; */
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.p{
+    /* position: absolute;
+    top: 520px;
+    left: 70px; */
+    margin-top: 10px;
+    margin-left: 67px;
+    margin-bottom: 35px;
+    color: #9d9ba7;
+    font-size: 15px;
+}
+
+p strong a{
+    color: #d37a7c;
+    text-decoration: none;
+}
+
+.caution{
+    margin-left: 390px;
+    margin-bottom: 0;
+    color: #d78d8e;
+    font-size: 15px;
+    
+}
+
+form embed{
+    /* margin-right: 50px; */
+    /* padding-right: 50px; */
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding-right: 50px;
+    right: -35px;
+}
+
+footer{
+    position: absolute;
+    top: 840px;
+    left: 700px;
+}
