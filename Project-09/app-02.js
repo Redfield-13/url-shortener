@@ -80,7 +80,7 @@ in_btn.addEventListener('click',function(e){
     copy_btn.onclick = function(){
         var el = document.createElement('textarea')
         el.value = h3_2nd_text.nodeValue
-        // input.value = h3_2nd_text.nodeValue
+        input.value = h3_2nd_text.nodeValue
         input.select()
         input.setSelectionRange(0,99999)
         document.execCommand("copy")
